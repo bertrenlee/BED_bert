@@ -12,6 +12,6 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.3.0",
-    "mssql": "^12.7.14"
+    "mssql": "^12.8.1"
   }
 }
