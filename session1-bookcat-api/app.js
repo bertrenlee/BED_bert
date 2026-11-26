@@ -20,6 +20,10 @@ app.get('/categories', (req, res) => {
   res.json(categories);
 });
  
+app.get('/about', (req, res) => {
+    res.send("hi i'm bertren");
+})
+
 app.listen(port, () => {
   console.log(`bookcat-api listening on http://localhost:${port}`);
 });
